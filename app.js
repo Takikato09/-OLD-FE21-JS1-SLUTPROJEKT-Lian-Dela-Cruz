@@ -153,6 +153,7 @@ function resetUI() {
     clearSearchResults();
     currentWeather.style.display = '';
     futureWeather.style.display = '';
+    errorMessage.textContent = '';
 };
 
 function displayError(){
